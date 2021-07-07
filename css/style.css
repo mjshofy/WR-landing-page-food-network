@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* google fonts */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ends base */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: aqua;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: linear-gradient(#FA9954, #FC4735);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: .95em;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: linear-gradient(#FA9954, #FC4735);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: .95em;
+  box-shadow: 0 0 15px #FA995470, 0 0 20px #FA995450;
+}
+
+.btn:hover {
+  box-shadow: none;
+  transition: .3s box-shadow;
+}
+
+.top-heading {
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #676767;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+/* ends basic */
+
+header {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .h-text {
+  width: 620px;
+  max-width: 55%;
+}
+
+header .h-text h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #575757;
+}
+
+header .h-text h1 span {
+  color: #FA9152;
+}
+
+header .h-text p {
+  width: 410px;
+  margin: 25px 0 30px;
+}
+
+header .h-image {
+  max-width: 45%;
+}
+
+/* ends header */
+
+.about {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/shapes/7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.about .box {
+  width: 1020px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .ab-image {
+  width: 350px;
+  max-width: 35%;
+  height: 560px;
+  position: relative;
+}
+
+.about .ab-image img {
+  position: absolute;
+  bottom: -55px;
+}
+
+.about .ab-text {
+  max-width: 45%;
+}
+
+.about p {
+  margin-bottom: 100px;
+}
+
+/* ends about */
+
+.recipies {
+  width: 100%;
+  height: auto;
+}
+
+.recipies .container {
+  padding: 50px 0;
+}
+
+.recipies .heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.recipies .heading p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.recipies .cards-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipies .card {
+  width: 350px;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00000030, 0 0 35px #00000010;
+}
+
+.recipies .card .cd-hero {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  background-image: url(../images/food/Project\ Cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipies .card:nth-child(2) .cd-hero {
+  background-image: url(../images/food/Project\ Cover1.jpg);
+}
+
+.recipies .card:nth-child(3) .cd-hero {
+  background-image: url(../images/food/Project\ Cover.png);
+}
+
+.recipies .card h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* ends recipies */
+
+.social {
+  width: 100%;
+}
+
+.social .container {
+  padding: 50px 0px;
+}
+
+.social .social-counter {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  box-shadow: 0 0 15px #00000030, 0 0 35px #00000010;
+  border-radius: 15px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social .social-counter h2 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+/* ends social */
+
+.instagram-feed {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.instagram-feed a {
+  display: inline-block;
+  width: 16.666%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instagram-feed a:nth-child(1) {
+  background-image: url(../images/food/Project\ Cover4.png);
+}
+
+.instagram-feed a:nth-child(2) {
+  background-image: url(../images/food/Project\ Cover5.png);
+}
+
+.instagram-feed a:nth-child(3) {
+  background-image: url(../images/food/Project\ Cover8.png);
+}
+
+.instagram-feed a:nth-child(4) {
+  background-image: url(../images/food/Project\ Cover6.png);
+}
+
+.instagram-feed a:nth-child(5) {
+  background-image: url(../images/food/Project\ Cover8.png);
+}
+
+.instagram-feed a:nth-child(6) {
+  background-image: url(../images/food/Project\ Cover7.png);
+}
+
+/* ends instagram feed */
+
+footer {
+  background-color: #0B0D17;
+}
+
+footer .container {
+  padding: 50px 0 100px;
+  text-align: center;
+  color: #D6D7D8;
+}
+
+footer .follow {
+  margin-bottom: 30px;
+}
+
+footer .follow a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  color: #ffffff50;
+  font-size: 1.5em;
+  margin: 0 10px;
+  border: 1px solid #ffffff50;
+  border-radius: 50px;
+  text-align: center;
+}
+
+footer .follow a:hover {
+  color: #ffffff70;
+  border: 1px solid #ffffff70;
+}
+
+footer .follow i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer h2 {
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #5B5B5B;
+}
+
+footer h2 span {
+  color: #FA9854;
+}
